@@ -9,7 +9,7 @@ body {
     color: rgb(17, 14, 14);
   }
   h3 { 
-    color: rgb(12, 10, 10);
+    color: rgb(255, 255, 255);
   }
   p { 
     color: rgb(245, 240, 240);
@@ -17,6 +17,10 @@ body {
   figcaption{ 
     color: rgb(157, 174, 178);
     font-style: italic;
+  }
+
+ a {
+    color: rgb(7, 1, 1);
   }
  img{ 
     width: 600px;
