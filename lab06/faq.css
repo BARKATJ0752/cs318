@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+}
+
+h3{
+    font-size: 24pt;
+    color: rgb(80, 43, 43);
+    font-family: 'Oswald', sans-serif;
+    text-shadow:  4px 5px 15px #000012
+}
+
+.Answer{
+    font-family: 'Dosis', sans-serif;
+}
