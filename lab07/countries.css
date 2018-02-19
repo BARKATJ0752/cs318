@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+      background-color: rgb(202, 190, 190);
+  }
+
+  .stamp {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: rgb(39, 187, 39);
+    box-shadow: 10px 30px 40px black;
+}
+
+#Sweden {
+    background-image: url(https://kids.nationalgeographic.com/explore/countries/sweden/_jcr_content/content/textimage/image.ngsversion.1395681221069.img.gif),
+        url(https://kids.nationalgeographic.com/explore/countries/sweden/_jcr_content/content/textimage_1/image.ngsversion.1470934857288.img.jpg);
+    background-position: right top,
+                        center;
+background-repeat: no-repeat,
+repeat;
+    background-size: 120px 80px, auto 300px;
+}
+
+#UnitedKingdom {
+    background-image: url(https://kids.nationalgeographic.com/explore/countries/united-kingdom/_jcr_content/content/textimage/image.ngsversion.1395687476725.img.gif),
+    url(https://kids.nationalgeographic.com/explore/countries/united-kingdom/_jcr_content/content/textimage_0/image.ngsversion.1470934883240.img.jpg);
+    background-position: right top,
+                        center;
+background-repeat: no-repeat,
+repeat;
+    background-size: 120px 80px, auto 300px;
+}
+
+#Germany {
+    background-image: url(https://kids.nationalgeographic.com/explore/countries/germany/_jcr_content/content/textimage/image.ngsversion.1394732306453.img.gif),
+    url(https://kids.nationalgeographic.com/explore/countries/germany/_jcr_content/content/textimage_0/image.ngsversion.1457645554180.img.jpg);
+    background-position: right top,
+                        center;
+background-repeat: no-repeat,
+repeat;
+    background-size: 120px 80px, auto 300px;
+}
+
+#Australia {
+    background-image: url(https://kids.nationalgeographic.com/explore/countries/australia/_jcr_content/content/textimage/image.ngsversion.1394832458233.img.gif),
+    url(https://kids.nationalgeographic.com/explore/countries/australia/_jcr_content/content/textimage_0/image.ngsversion.1457632958663.img.jpg);
+    background-position: right top,
+                        center;
+background-repeat: no-repeat,
+repeat;
+    background-size: 120px 80px, auto 300px;
+}
