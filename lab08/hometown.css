@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+ 
+ 
+    background-image: linear-gradient(to top, #b916b9, #1818ce);
+    display: block;
+      }
+
+h1{   
+   text-align: center;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+margin-right: auto;
+}
+nav{
+    font-size: 10pt;
+    margin-left: 275px;
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p{
+    padding: 6px 0px 0px 6px;
+}
+
+h3{
+    text-align: right;
+    padding: 0px 6px 6px 0px;
+}
+
+h2{
+    padding: 6px 0px 0px 6px;
+}
+
+footer{
+text-align: right;
+font-style: italic;
+padding: 0px 6px 6px 0px;
+}
+
+img{
+   
+ width: 100%;
+}
+.container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
