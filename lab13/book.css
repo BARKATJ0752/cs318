@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+  }
+
+  ul{
+      list-style: none;
+      padding-left: 0px;
+      display: inline-block;
+  }
+
+  li{
+      display: inline;
+  }
+
+header{
+    padding-left: 6px;
+    background-color: pink;
+    padding-bottom: 4px;
+}
+
+nav{
+    padding-top: 4px;
+    background-color:  aqua;
+    float: left;
+    width: 100%;
+    padding-left: 6px;
+}
+
+main{  
+    padding-left: 6px;
+    background-color: tan;
+    padding-bottom: 4px;
+    padding-right:6px;
+    height: 100%;
+}
+
+.quote{
+    background-color: blueviolet;
+    font-size: 16pt;
+    color: white;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 100%;
+    width: 100%;
+}
+
+.title{
+    display: none;
+}
+
+body{
+    background-color: aqua;
+}
+
+.poem{
+    white-space: pre-wrap;
+}
+
+@media (min-width: 600px) {
+
+    nav{
+        width: 200px;
+    }
+
+    main{
+        display: inline-block;
+        width: calc(100% - 200px);
+    }
+
+    .title{
+        display: inline-block;
+    }
+
+    li{
+        display: block;
+    }
+
+    ul{
+        display: block;
+    }
+
+    .quote{
+        float: right;
+        width:100px;
+        padding-right: 2px;
+        padding-left: 2px;
+        margin-right: 10px;
+        text-align: center;
+    }
+}
