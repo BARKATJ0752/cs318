@@ -1,0 +1,356 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, purple, white);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+#wrapper {
+    min-width: 100%;
+    max-width: 100%;
+    color: black;
+    width: 100%;
+    height: 100%;
+}*/
+
+header {
+    color: black;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    height: 290px;
+    font-family: 'Aguafina Script', cursive;
+    font-size: 50pt;
+   /* text-align: center;*/
+}
+
+#A{
+position: absolute;
+top: 30px;
+left: 15%;
+margin: 0;
+width: 350px;
+text-align: right;
+}
+
+#S{
+position: absolute; 
+top: 30px;
+right: 15%;
+margin: 0;
+width: 350px;
+}
+
+ul{
+    padding:0;
+    display: inline-block;
+    margin: 0;
+
+}
+.menu{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    width: 80px;
+}
+.menu:hover{  
+    cursor: pointer;
+   
+}
+.menu:hover ul{
+    display: block;
+    background-color: rgb(172, 11, 164);
+    text-align: left;
+ 
+}
+
+.menu > ul{
+    position: absolute;
+    padding-left: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: none;
+    top: 100%;
+    width: 220px;
+}
+
+nav {
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18pt;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    padding: 0.1em;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    /*display: block*/
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+nav .active{
+    color: white;
+    }
+
+main{
+    text-align: center;
+}
+#image2 {
+    width: 800px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    margin-top: 58px;
+}
+
+#image1 {
+    height: 300px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*#roster{
+    text-align: left;
+    margin-left: 265px;
+}*/
+#playerpic{
+
+}
+table{
+    width: 75%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14pt;
+    font-weight: bold;
+}
+#play{
+    float: left;
+    width:200px;
+    height: auto;
+}
+
+#bio{
+    font-size: 30pt;
+}
+#paragraph{
+    width: 900px;
+    text-align: left;
+}
+#awards{
+    text-align: left;
+}
+#ann{
+    text-align: left;
+}
+
+#t2{
+    height: 500px;
+    width: 600px;
+    margin-left: 50px;
+}
+#stats th:nth-child(first){
+    padding-bottom: 50px;
+}
+/*
+#stats tr>th{
+padding-left: 15px;
+
+}*/
+#stats tr>td{
+    
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    
+    border-right: 3px solid black;
+}
+
+#stats{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin-top: 12px;
+    
+  
+}
+#hitting{
+    text-align: left;
+}
+/*
+#pawards{
+    border-collapse: collapse;
+    border-spacing: 0px; 
+    width: 300px;
+}
+
+#pawards tr>td{
+    border: 2px solid black;
+}*/
+/*
+#statPp th>tr{
+    padding-left: 15px;
+    
+    }*/
+
+    #statsP tr>td{
+        
+        border-bottom: 3px solid black;
+        border-top: 3px solid black;
+        border-left: 3px solid black;
+        
+        border-right: 3px solid black;
+    }
+    
+    #statsP{
+        border-collapse: collapse;
+        border-spacing: 0px;
+        margin-top: 12px;
+       
+      
+    }
+#schedule{
+    
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+#schedule tr>td{
+    border-bottom: 2px solid black;
+    border: 2px solid black;
+}
+
+.roster{
+    width: auto;
+  
+}
+#calendar a{
+    text-decoration: none;
+    color: black;
+}
+#calendar a:hover{
+    text-decoration: none;
+    color: purple;
+}
+
+.homepage{
+    right: 0;
+    left: auto;
+    display: none;
+    font-size: 14pt;
+}
+ div.menu{
+     display: none;
+ }
+
+ #playerpic{
+     height: auto;
+     width: 100px;
+ }
+
+@media (max-width: 700px) {
+
+    nav{
+        display: none;
+    }
+
+   div.menu{   
+    float: right;    
+        font-size: 24pt;
+        display: block;
+       height: 20%;
+       text-align: center;
+       line-height: 75px;
+   }
+   .roster{
+    width: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    }
+     
+  .homepage:hover ul{
+  display: block;     
+  left: auto;
+  right: 0;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+}
+
+a:hover {
+   color:white;
+  }
+  a{
+    color:black;
+  }
+.homepage li{
+    line-height: 30px;
+    width: 50px;
+    list-style: none; 
+    font-size: 24pt; 
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 12px;
+}
+#image1 {
+    height: 200px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+}
+#A{
+    position: absolute;
+    top: 30px;
+    left: 12px;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    text-align: left;
+    font-size: 80pt;
+  
+}
+    
+    #S{
+    position: absolute; 
+    top: 30px;
+    right: 30px;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    font-size: 80pt;
+    text-align: right;
+    }
+    #image2 {
+        width: 600px;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+        margin-top: 58px;
+    }
+
+}
