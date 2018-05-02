@@ -4,46 +4,37 @@
 
 body {
     background-image: linear-gradient(to bottom, purple, white);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     margin: 0;
     padding: 0;
 }
 
-/*
-#wrapper {
-    min-width: 100%;
-    max-width: 100%;
-    color: black;
-    width: 100%;
-    height: 100%;
-}*/
+
+
 
 header {
     color: black;
     background-repeat: no-repeat;
     margin-top: 0;
-    height: 290px;
+    padding-top: 12px;
     font-family: 'Aguafina Script', cursive;
     font-size: 50pt;
-   /* text-align: center;*/
+    width: 100%;
+    text-align: center;
 }
 
-#A{
-position: absolute;
-top: 30px;
-left: 15%;
+
+h1{
+display: inline;
+text-align: center;
+line-height: 200pt;
 margin: 0;
-width: 350px;
-text-align: right;
 }
 
-#S{
-position: absolute; 
-top: 30px;
-right: 15%;
-margin: 0;
-width: 350px;
+img{
+    display: inline-block;
 }
+
 
 ul{
     padding:0;
@@ -65,7 +56,6 @@ ul{
     display: block;
     background-color: rgb(172, 11, 164);
     text-align: left;
- 
 }
 
 .menu > ul{
@@ -98,7 +88,6 @@ nav li {
 
 nav a {
     text-decoration: none;
-    /*display: block*/
     color: black;
 }
 
@@ -121,19 +110,16 @@ main{
 }
 
 #image1 {
-    height: 300px;
-    width: 350px;
-    margin: 0;
+    height: 175pt;
+   vertical-align: text-bottom;
+    margin-left: 12px;
+    margin-right: 12px;
     padding: 0;
-    top: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    display: inline-block;
+    text-align: center;
 }
-/*#roster{
-    text-align: left;
-    margin-left: 265px;
-}*/
+
+
 #playerpic{
 
 }
@@ -144,6 +130,13 @@ table{
     margin-right: auto;
     font-size: 14pt;
     font-weight: bold;
+}
+table th{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+table td{
+    padding: 3px;
 }
 #play{
     float: left;
@@ -173,11 +166,7 @@ table{
 #stats th:nth-child(first){
     padding-bottom: 50px;
 }
-/*
-#stats tr>th{
-padding-left: 15px;
 
-}*/
 #stats tr>td{
     
     border-bottom: 3px solid black;
@@ -197,21 +186,6 @@ padding-left: 15px;
 #hitting{
     text-align: left;
 }
-/*
-#pawards{
-    border-collapse: collapse;
-    border-spacing: 0px; 
-    width: 300px;
-}
-
-#pawards tr>td{
-    border: 2px solid black;
-}*/
-/*
-#statPp th>tr{
-    padding-left: 15px;
-    
-    }*/
 
     #statsP tr>td{
         
@@ -234,6 +208,8 @@ padding-left: 15px;
     border: 2px solid black;
     border-collapse: collapse;
     border-spacing: 0px;
+    width: auto;
+   
 }
 #schedule tr>td{
     border-bottom: 2px solid black;
@@ -241,8 +217,9 @@ padding-left: 15px;
 }
 
 .roster{
+    /* background-color: rgb(137, 11, 148);
+    color: white;*/
     width: auto;
-  
 }
 #calendar a{
     text-decoration: none;
@@ -268,7 +245,7 @@ padding-left: 15px;
      width: 100px;
  }
 
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
 
     nav{
         display: none;
@@ -313,38 +290,19 @@ a:hover {
     padding-top: 12px;
 }
 #image1 {
-    height: 200px;
-    width: 300px;
-    margin: 0;
-    padding: 0;
-    top: 140px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    display: block;
+   padding: 0;
+   margin-left: auto;
+   margin-right: auto;
+   height: 150pt;
 }
-#A{
-    position: absolute;
-    top: 30px;
-    left: 12px;
+h1{  
     margin: 0;
-    padding: 0;
-    width: 250px;
-    text-align: left;
-    font-size: 80pt;
-  
-}
+    padding: 0; 
+    font-size: 60pt; 
+    line-height: 200pt;
     
-    #S{
-    position: absolute; 
-    top: 30px;
-    right: 30px;
-    margin: 0;
-    padding: 0;
-    width: 250px;
-    font-size: 80pt;
-    text-align: right;
-    }
+}
+
     #image2 {
         width: 600px;
         height: 500px;
@@ -352,5 +310,12 @@ a:hover {
         padding: 0;
         margin-top: 58px;
     }
-
+ 
+    table th{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    table td{
+        padding: 3px;
+    }
 }
