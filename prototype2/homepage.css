@@ -97,7 +97,31 @@ nav a:hover {
 nav .active{
     color: white;
     }
-
+#idk{
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18pt;
+}
+#idk ul{
+    list-style-type: none;
+    margin: 0;
+}
+#idk li{
+    padding: 0.1em;
+    display: inline-block;
+}
+#idk a{
+    text-decoration: none;
+    color: black;
+}
+#nav a:hover{
+    color: white;
+}
+#nav .active{
+    color: white;
+}
 main{
     text-align: center;
 }
@@ -138,7 +162,7 @@ table th{
 table td{
     padding: 3px;
 }
-#play{
+.play{
     float: left;
     width:200px;
     height: auto;
@@ -147,27 +171,28 @@ table td{
 #bio{
     font-size: 30pt;
 }
-#paragraph{
+.paragraph{
     width: 900px;
     text-align: left;
 }
 #awards{
     text-align: left;
 }
-#ann{
+.ann{
     text-align: left;
+    font-weight: 100;
 }
 
 #t2{
-    height: 500px;
+    height: auto;
     width: 600px;
     margin-left: 50px;
 }
-#stats th:nth-child(first){
+.stats th:nth-child(first){
     padding-bottom: 50px;
 }
 
-#stats tr>td{
+.stats tr>td{
     
     border-bottom: 3px solid black;
     border-top: 3px solid black;
@@ -176,7 +201,7 @@ table td{
     border-right: 3px solid black;
 }
 
-#stats{
+.stats{
     border-collapse: collapse;
     border-spacing: 0px;
     margin-top: 12px;
@@ -244,6 +269,8 @@ table td{
      height: auto;
      width: 100px;
  }
+ 
+
 
 @media (max-width: 1200px) {
 
