@@ -3,7 +3,7 @@
 
 <head>
     <title>Beavers Softball</title>
-    <link href="homepage.css" rel="stylesheet">
+    <link href="css/homepage.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet">
 
 </head>
@@ -14,7 +14,7 @@
 
     <header>
         <h1 id="b"> Beavers</h1>
-        <a href="index.html"> <img id="image1" src="125.png"></a>
+        <a href="index.html"> <img id="image1" src="images/125.png" alt="image"></a>
         <h1 id="s"> Softball</h1>
 
         <div class="menu"> &#9776;
@@ -27,6 +27,7 @@
                      <!--       <li>
                         <a href="playersbio.html">Player's Bio</a>
                     </li>-->
+                    </li>
                     <li>
                         <a href="schedule.html" tabindex="3">Schedule</a>
                     </li>
@@ -48,9 +49,10 @@
                             </li>
                             <li>
                                 <a href="awards.html" tabindex="7">Awards</a>
-                                <li>
+                                <!--  <li>
                                     <a href="previousawards.html">Previous Awards</a>
-                                </li>
+                                </li>-->
+                            </li>
 
             </ul>
         </div>
@@ -88,32 +90,35 @@
             </li>
             <li class="menu">
                 <a href="awards.html" tabindex="7">Awards</a>
-                <ul>
+                <!-- <ul>
                     <li>
                         <a href="previousawards.html">Previous Awards</a>
                     </li>
-                </ul>
+                </ul>-->
             </li>
         </ul>
     </nav>
 
+
+
+
     <main>
-        <table>
+        <table><tr>
             <th>
                 <span id="bio">Coaches</span>
-            </th>
+            </th></tr>
             <tr>
                 <td>
                     <figure>
-                        <img id="play" src="data:image/jpeg;base64,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"
-                            alt="Coach Pic">
-                        <figcaption>#30 Craig Counsell</figcaption>
+                        <img class="play" src="images/coachpic2.jpg"
+                            alt="Coach Pic"><br>
 
                     </figure>
                 </td>
                 <td>
-                    <p id="paragraph">What is Lorem Ipsum?
-
+                    <p class="paragraph">Head Coach: Jake Krueger <br>
+                        Email: jake.krueger@ymail.com <br>
+                        Phone #: 715-456-2913
                     </p>
                 </td>
             </tr>
@@ -121,15 +126,14 @@
             <tr>
                 <td>
                     <figure>
-                        <img id="play" src="data:image/jpeg;base64,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"
+                        <img class="play" src="images/coachpic1.jpg"
                             alt="Coach Pic">
-                        <figcaption>#30 Craig Counsell</figcaption>
-
                     </figure>
                 </td>
                 <td>
-                    <p id="paragraph">What is Lorem Ipsum?
-
+                    <p class="paragraph">Coach: Joe Zawacki<br>
+                                    Email: jzawacki@augusta.k12.wi.us <br>
+                                    Phone #: 715-286-3391
                     </p>
                 </td>
             </tr>

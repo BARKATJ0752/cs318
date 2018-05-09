@@ -3,7 +3,7 @@
 
 <head>
     <title>Beavers Softball</title>
-    <link href="homepage.css" rel="stylesheet">
+    <link href="css/homepage.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet">
 
 </head>
@@ -14,7 +14,7 @@
 
     <header>
         <h1 id="b"> Beavers</h1>
-        <a href="index.html"> <img id="image1" src="125.png"></a>
+        <a href="index.html"> <img id="image1" src="images/125.png" alt="image"></a>
         <h1 id="s"> Softball</h1>
 
         <div class="menu"> &#9776;
@@ -27,6 +27,7 @@
                   <!--       <li>
                         <a href="playersbio.html">Player's Bio</a>
                     </li>-->
+                </li>
                     <li>
                         <a href="schedule.html" tabindex="3">Schedule</a>
                     </li>
@@ -48,9 +49,10 @@
                             </li>
                             <li>
                                 <a href="awards.html" tabindex="7">Awards</a>
-                                <li>
+                           <!--  <li>
                                     <a href="previousawards.html">Previous Awards</a>
-                                </li>
+                                </li>-->
+                            </li>
 
             </ul>
         </div>
@@ -88,169 +90,335 @@
             </li>
             <li class="menu">
                 <a href="awards.html" tabindex="7">Awards</a>
-                <ul>
+                 <!-- <ul>
                     <li>
                         <a href="previousawards.html">Previous Awards</a>
                     </li>
-                </ul>
+                </ul>-->
             </li>
         </ul>
     </nav>
-
+    <nav>
+            <ul>
+                <li>
+                    <a href="previousstatshitting.html" class="active">Hitting</a>
+                </li>
+                <li>
+                <a href="previousstatspitching.html">Pitching</a></li>
+            </ul>
+        </nav>
     <main>
-        <table id="stats">
-            <tr>
-                <th>
-                    <span id="pstitle">Previous Player's Stats (In Totals)</span>
-                </th>
-            </tr>
+            <table class="stats">
 
+                    <tr>
+                            <th>
+                                <span id="pstitle">Previous Player's Season Stats (2017)</span>
+                            </th>
+                        </tr>
 
-            <table id="stats">
+                    <tr>
+                        <th>Number</th>
+                        <th id="name">Player</th>
+                        <th>GP</th>
+                        <th>PA</th>
+                        <th>AB</th>
+                        <th>H</th>
+                        <th>2B</th>
+                        <th>3B</th>
+                        <th>HR</th>
+                        <th>R</th>
+                        <th>RBI</th>
+                        <th>BB</th>
+                        <th>HBP</th>
+                        <th>SO</th>
+                        <th>AVG</th>
+                        <th>OBP</th>
+                        <th>SLG</th>
+                        <th>OPS</th>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Abri Knutson</td>
+                        <td>18</td>
+                        <td>47</td>
+                        <td>37</td>
+                        <td>5</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td>6</td>
+                        <td>10</td>
+                        <td>0</td>
+                        <td>13</td>
+                        <td>.135</td>
+                        <td>.319</td>
+                        <td>.162</td>
+                        <td>.481</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td>Alexi McRoberts</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>.000</td>
+                        <td>1.000</td>
+                        <td>.000</td>
+                        <td>1.000</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Ashlyn Korger</td>
+                        <td>9</td>
+                        <td>34</td>
+                        <td>23</td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>9</td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>0</td>
+                        <td>7</td>
+                        <td>.391</td>
+                        <td>.576</td>
+                        <td>.478</td>
+                        <td>1.054</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Brianna Nelson</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>.000</td>
+                        <td>.000</td>
+                        <td>.000</td>
+                        <td>.000</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Caitlyn Kirchoff</td>
+                        <td>9</td>
+                        <td>34</td>
+                        <td>26</td>
+                        <td>8</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>13</td>
+                        <td>2</td>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>.308</td>
+                        <td>.471</td>
+                        <td>.385</td>
+                        <td>.855</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Camryn Grunewald</td>
+                        <td>9</td>
+                        <td>27</td>
+                        <td>19</td>
+                        <td>5</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td>7</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>.263</td>
+                        <td>.481</td>
+                        <td>.263</td>
+                        <td>.745</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Chloe Jacobs</td>
+                        <td>5</td>
+                        <td>7</td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>.600</td>
+                        <td>.714</td>
+                        <td>.800</td>
+                        <td>1.514</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Hannah King</td>
+                        <td>8</td>
+                        <td>25</td>
+                        <td>23</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>11</td>
+                        <td>.130</td>
+                        <td>.160</td>
+                        <td>.174</td>
+                        <td>.334</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Jessa Weiss</td>
+                        <td>9</td>
+                        <td>26</td>
+                        <td>23</td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>9</td>
+                        <td>.174</td>
+                        <td>.269</td>
+                        <td>.261</td>
+                        <td>.530</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Katie Jacobs</td>
+                        <td>9</td>
+                        <td>25</td>
+                        <td>22</td>
+                        <td>6</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>12</td>
+                        <td>.273</td>
+                        <td>.360</td>
+                        <td>.318</td>
+                        <td>.678</td>
+                    </tr>
+                    <tr>
+                        <td>42</td>
+                        <td>Kayla Martinson</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>.000</td>
+                        <td>.000</td>
+                        <td>.000</td>
+                        <td>.000</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>Kaylee Kewin</td>
+                        <td>4</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>.000</td>
+                        <td>.333</td>
+                        <td>.000</td>
+                        <td>.333</td>
+                    </tr>
+                            <tr>
+                                    <td>7</td>
+                                    <td>Kelli Hanson</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>.000</td>
+                                    <td>.000</td>
+                                    <td>.000</td>
+                                    <td>.000</td>
+                                </tr>
+                                <tr>
+                        <td>20</td>
+                        <td>Megan Kunz</td>
+                        <td>9</td>
+                        <td>33</td>
+                        <td>27</td>
+                        <td>15</td>
+                        <td> 7 </td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>11</td>
+                        <td>15</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>.556</td>
+                        <td>.636</td>
+                        <td>1.037</td>
+                        <td>1.673</td>
+                    </tr>
 
-                <tr>
-                    <th>
-                        <span id="hitting"></span>Hitting</th>
-                </tr>
-
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="previousstatshitting.html" class="active">Hitting</a>
-                        </li>
-                        <a href="previousstatspitching.html">Pitching</a>
-                    </ul>
-                </nav>
-
-
-                <tr>
-                    <th id="name">Player</th>
-                    <th>Pos</th>
-                    <th>G</th>
-                    <th>AB</th>
-                    <th>R</th>
-                    <th>H</th>
-                    <th>2B</th>
-                    <th>3B</th>
-                    <th>HR</th>
-                    <th>RBI</th>
-                    <th>BB</th>
-                    <th>SO</th>
-                    <th>SB</th>
-                    <th>CS</th>
-                    <th>AVG</th>
-                    <th>OBP</th>
-                    <th>SLG</th>
-                    <th>OPS</th>
-                </tr>
-                <tr>
-                    <td>Eric Thames</td>
-                    <td>1B/LF</td>
-                    <td>20</td>
-                    <td>59</td>
-                    <td>11</td>
-                    <td>15</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>7</td>
-                    <td>13</td>
-                    <td>10</td>
-                    <td>17</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>.254</td>
-                    <td>.362</td>
-                    <td>.661</td>
-                    <td>1.023</td>
-                </tr>
-                <tr>
-                    <td>Eric Thames</td>
-                    <td>1B/LF</td>
-                    <td>20</td>
-                    <td>59</td>
-                    <td>11</td>
-                    <td>15</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>7</td>
-                    <td>13</td>
-                    <td>10</td>
-                    <td>17</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>.254</td>
-                    <td>.362</td>
-                    <td>.661</td>
-                    <td>1.023</td>
-                </tr>
-                <tr>
-                    <td>Eric Thames</td>
-                    <td>1B/LF</td>
-                    <td>20</td>
-                    <td>59</td>
-                    <td>11</td>
-                    <td>15</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>7</td>
-                    <td>13</td>
-                    <td>10</td>
-                    <td>17</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>.254</td>
-                    <td>.362</td>
-                    <td>.661</td>
-                    <td>1.023</td>
-                </tr>
-                <tr>
-                    <td>Eric Thames</td>
-                    <td>1B/LF</td>
-                    <td>20</td>
-                    <td>59</td>
-                    <td>11</td>
-                    <td>15</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>7</td>
-                    <td>13</td>
-                    <td>10</td>
-                    <td>17</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>.254</td>
-                    <td>.362</td>
-                    <td>.661</td>
-                    <td>1.023</td>
-                </tr>
-                <tr>
-                    <td>Eric Thames</td>
-                    <td>1B/LF</td>
-                    <td>20</td>
-                    <td>59</td>
-                    <td>11</td>
-                    <td>15</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>7</td>
-                    <td>13</td>
-                    <td>10</td>
-                    <td>17</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>.254</td>
-                    <td>.362</td>
-                    <td>.661</td>
-                    <td>1.023</td>
-                </tr>
-
-
-            </table>
-
-
-        </table>
-
-
+                </table>
+        
 
     </main>
 

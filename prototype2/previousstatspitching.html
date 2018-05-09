@@ -3,7 +3,7 @@
 
 <head>
     <title>Beavers Softball</title>
-    <link href="homepage.css" rel="stylesheet">
+    <link href="css/homepage.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet">
 
 </head>
@@ -14,7 +14,7 @@
 
     <header>
         <h1 id="b"> Beavers</h1>
-        <a href="index.html"> <img id="image1" src="125.png"></a>
+        <a href="index.html"> <img id="image1" src="images/125.png" alt="image"></a>
         <h1 id="s"> Softball</h1>
 
         <div class="menu"> &#9776;
@@ -27,6 +27,7 @@
                     <!--       <li>
                         <a href="playersbio.html">Player's Bio</a>
                     </li>-->
+                </li>
                     <li>
                         <a href="schedule.html" tabindex="3">Schedule</a>
                     </li>
@@ -48,9 +49,10 @@
                             </li>
                             <li>
                                 <a href="awards.html" tabindex="7">Awards</a>
-                                <li>
+                                <!--  <li>
                                     <a href="previousawards.html">Previous Awards</a>
-                                </li>
+                                </li>-->
+                            </li>
 
             </ul>
         </div>
@@ -88,163 +90,138 @@
             </li>
             <li class="menu">
                 <a href="awards.html" tabindex="7">Awards</a>
-                <ul>
+                <!-- <ul>
                     <li>
                         <a href="previousawards.html">Previous Awards</a>
                     </li>
-                </ul>
+                </ul>-->
             </li>
         </ul>
     </nav>
 
+        
+    <nav>
+            <ul>
+                <li>
+                    <a href="previousstatshitting.html">Hitting</a>
+                </li>
+                <li>
+                <a href="previousstatspitching.html" class="active">Pitching</a></li>
+            </ul>
+        </nav>
+
     <main>
-        <table id="statsP">
-            <tr>
-                <th>
-                    <span id="pstitle">Previous Player's Stats (In Totals)</span>
-                </th>
-            </tr>
-
-
-            <table id="statsP">
-
-                <tr>
-                    <th>
-                        <span id="hitting"></span>Pitching</th>
-                </tr>
-
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="previousstatshitting.html">Hitting</a>
-                        </li>
-                        <a href="previousstatspitching.html" class="active">Pitching</a>
-                    </ul>
-                </nav>
-
-                <tr>
-                    <th id="name">Player</th>
-                    <th>G</th>
-                    <th>IP</th>
-                    <th>W</th>
-                    <th>L</th>
-                    <th>SV</th>
-                    <th>H</th>
-                    <th>R</th>
-                    <th>ER</th>
-                    <th>HR</th>
-                    <th>BB</th>
-                    <th>SO</th>
-                    <th>OPP AVG</th>
-                    <th>WHIP</th>
-                </tr>
-                <tr>
-                    <td>Josh Hader</td>
-                    <td>8</td>
-                    <td>12.2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>26</td>
-                    <td>.073</td>
-                    <td>0.47</td>
-                </tr>
-                <tr>
-                    <td>Josh Hader</td>
-                    <td>8</td>
-                    <td>12.2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>26</td>
-                    <td>.073</td>
-                    <td>0.47</td>
-                </tr>
-                <tr>
-                    <td>Josh Hader</td>
-                    <td>8</td>
-                    <td>12.2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>26</td>
-                    <td>.073</td>
-                    <td>0.47</td>
-                </tr>
-                <tr>
-                    <td>Josh Hader</td>
-                    <td>8</td>
-                    <td>12.2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>26</td>
-                    <td>.073</td>
-                    <td>0.47</td>
-                </tr>
-                <tr>
-                    <td>Josh Hader</td>
-                    <td>8</td>
-                    <td>12.2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>26</td>
-                    <td>.073</td>
-                    <td>0.47</td>
-                </tr>
-                <tr>
-                    <td>Josh Hader</td>
-                    <td>8</td>
-                    <td>12.2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>26</td>
-                    <td>.073</td>
-                    <td>0.47</td>
-                </tr>
-
-
-            </table>
-
-
-        </table>
-
-
-
-
-    </main>
+            <main>
+                   
+                    <table id="statsP">
+                            <tr>
+                                    <th>
+                                        <span id="pstitle">Previous Player's Season Stats (2017)</span>
+                                    </th>
+                                </tr>
+                       
+                        <tr>
+                            <th>Number</th>
+                            <th id="name">Player</th>
+                            <th>IP</th>
+                            <th>GP</th>
+                            <th>GS</th>
+                            <th>W</th>
+                            <th>L</th>
+                            <th>SV</th>
+                            <th>SV0</th>
+                            <th>H</th>
+                            <th>R</th>
+                            <th>ER</th>
+                            <th>BB</th>
+                            <th>SO</th>
+                            <th>HBP</th>
+                            <th>ERA</th>
+                            <th>WHIP</th>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>Alyssa Laxson</td>
+                            <td>125.2</td>
+                            <td>20</td>
+                            <td>20</td>
+                            <td>12</td>
+                            <td>7</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>105</td>
+                            <td>72</td>
+                            <td>42</td>
+                            <td>38</td>
+                            <td>170</td>
+                            <td>3</td>
+                            <td>2.340</td>
+                            <td>1.138</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Ashlyn Korger</td>
+                            <td>10.1</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>10</td>
+                            <td>12</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>6.774</td>
+                            <td>2.516</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Hannah King</td>
+                            <td>4.2</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>9</td>
+                            <td>9</td>
+                            <td>8</td>
+                            <td>7</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>12.000</td>
+                            <td>3.429</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Katie Nelson</td>
+                            <td>1.0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>28.000</td>
+                            <td>6.000</td>
+                        </tr>
+            
+            
+            
+                    </table>
+            
+                </main>
+            
 
 
 </body>
